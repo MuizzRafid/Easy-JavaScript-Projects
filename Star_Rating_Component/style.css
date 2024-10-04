@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  color: white;
+}
+.star-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.fa-star-o::before {
+  content: "\f006";
+  font-size: 2rem;
+  color: white;
+}
+
+.fa-star::before {
+  content: "\f005";
+  font-size: 2rem;
+  color: rgb(199, 199, 93);
+}
+
+.selected-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
