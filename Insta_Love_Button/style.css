@@ -21,6 +21,8 @@ body {
   height: 400px;
   width: 300px;
   background-color: white;
+  position: relative;
+  border-radius: 10px;
 }
 
 #container img {
@@ -28,4 +30,16 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: top;
+  border-radius: 10px;
+}
+
+#container i {
+  color: #f66446;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: transform ease 0.5s;
 }
