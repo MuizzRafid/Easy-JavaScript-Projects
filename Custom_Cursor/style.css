@@ -27,7 +27,7 @@ body {
   mix-blend-mode: difference;
   border-radius: 50%;
   position: absolute;
-  transition: all linear 0.2s;
+  transition: all linear 0.1s;
 }
 
 h1 {
