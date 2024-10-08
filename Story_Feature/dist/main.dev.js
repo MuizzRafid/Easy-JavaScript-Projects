@@ -5,7 +5,7 @@ var arr = [{
   story: "https://img.freepik.com/premium-photo/man-with-shirt-that-says-he-is-model_1009924-5202.jpg?w=740"
 }, {
   db: "https://img.freepik.com/free-photo/young-model-red-shirt-holding-sport-equipment_114579-17423.jpg?t=st=1728400050~exp=1728403650~hmac=a34ead2d1531006f3a4333e1f25ee0f99455d8ec4034ec6b192b61ccd8059cd4&w=740",
-  story: "https://img.freepik.com/free-photo/confident-businessman-portrait-posing-relaxed_158595-2925.jpg?t=st=1728402067~exp=1728405667~hmac=89e5185c27139ee5bfe71bbaf5e85cebf4dc15b3582b9623b8279e37dd5eb872&w=740"
+  story: "https://img.freepik.com/free-photo/young-model-casual-fall-winter-outfits_114579-17538.jpg?t=st=1728412084~exp=1728415684~hmac=478914892a26584752f22371678a208080d09cb5e8b384caf71c11519cce2a42&w=740"
 }, {
   db: "https://img.freepik.com/premium-photo/young-man-park-summer-using-phone_251136-88901.jpg?w=826",
   story: "https://img.freepik.com/premium-photo/portrait-handsome-young-man-park-summer_251136-88893.jpg?w=826"
@@ -28,5 +28,5 @@ storyian.addEventListener("click", function (dets) {
   document.querySelector("#full-screen").style.backgroundImage = "url(".concat(value, ")");
   setTimeout(function () {
     document.querySelector("#full-screen").style.display = "none";
-  }, 3000);
+  }, 2000);
 });
