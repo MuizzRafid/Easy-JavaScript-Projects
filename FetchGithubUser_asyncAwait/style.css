@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background-color: rgb(62, 197, 255);
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 3px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.cards {
+  width: 45%;
+  box-shadow: 0 0 3px #000;
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.cards img {
+  width: 30%;
+  object-fit: contain;
+}
+.cards h1 {
+  font-size: 1.5rem;
+  width: 40%;
+  padding-right: 5em;
+  font-weight: 700;
+  color: rgb(104, 98, 98);
+}
+@media (max-width: 568px) {
+  .cards {
+    width: 85%;
+    box-shadow: 0 0 3px #000;
+    margin: 1em 0;
+    display: flex;
+  }
+  .cards h1 {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+}
