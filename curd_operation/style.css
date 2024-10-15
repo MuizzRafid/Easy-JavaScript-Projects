@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(30, 29, 29);
+  color: #fff;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.main {
+  width: 100%;
+}
+#student-form {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  margin: 30px 0 20px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#names {
+  display: block;
+  margin: 15px 0px 5px 0px;
+  padding: 10px 0px 0px 0px;
+  font-size: 1.5rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]::placeholder {
+  font-size: 1.1rem;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100px;
+  margin: 20px 0 0 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  color: #fff;
+  margin: 150px 0px 100px 0px;
+}
+table th,
+td {
+  background-color: black;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  border-radius: 5px;
+}
+td {
+  background-color: rgb(22, 21, 21);
+}
+
+.del-btn,
+.edit-btn {
+  padding: 5px;
+  background-color: rgb(232, 151, 29);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 2px 0 2px;
+}
+
+.del-btn {
+  background-color: rgb(187, 66, 66);
+}
+
+.alert {
+  width: 100%;
+
+  background-color: rgb(180, 165, 165);
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
