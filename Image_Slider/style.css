@@ -1,0 +1,81 @@
+/* https://www.youtube.com/watch?v=YoVdhJgw8Wc&list=PL0JfpSrXxTMy17aO5hmWIguYoWhBFW_AG */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+}
+
+body {
+  background-color: hsl(200, 70%, 50%);
+  padding: 50px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  max-width: 45rem;
+  height: 25rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+
+.bottom-container button {
+  padding: 10px 30px;
+  background-color: hsl(64, 100%, 50%);
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.dots-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dots-container .dot {
+  width: 30px;
+  height: 10px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.dots-container .dot.active {
+  background-color: black;
+}
