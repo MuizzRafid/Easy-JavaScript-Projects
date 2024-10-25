@@ -93,3 +93,5 @@ setTimeout(() => {
     }
   });
 }, 1000);
+
+document.get;

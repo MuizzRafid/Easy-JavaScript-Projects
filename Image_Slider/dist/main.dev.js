@@ -104,3 +104,4 @@ setTimeout(function () {
     }
   });
 }, 1000);
+document.get;
