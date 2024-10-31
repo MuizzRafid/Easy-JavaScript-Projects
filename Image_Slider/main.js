@@ -95,3 +95,12 @@ setTimeout(() => {
 }, 1000);
 
 document.get;
+
+/*
+
+n JavaScript, when using dataset, it automatically removes the data- prefix and converts the attribute name to camelCase. So, for an attribute like data-slide, you can access it as dataset.slide.
+
+Explanation:
+If you have an attribute named data-attribute-name:
+
+You access it in JavaScript as element.dataset.attributeName*/
